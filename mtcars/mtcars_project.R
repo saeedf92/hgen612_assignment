@@ -1,8 +1,10 @@
 library(tidyverse)
-
 library(ggplot2)
+library(psych)
 
-mtcars
+
+describe(mtcars)
+
 
 ggplot(mtcars, aes(cyl, mpg)) +
   geom_smooth(color = 'red')
