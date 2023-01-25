@@ -7,6 +7,6 @@ describe(mtcars)
 
 
 ggplot(mtcars, aes(cyl, mpg)) +
-  geom_smooth(color = 'red')
+  geom_smooth(color = 'red', fill = "#78086C")
 
 
