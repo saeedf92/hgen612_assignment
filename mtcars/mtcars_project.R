@@ -14,7 +14,6 @@ ggplot(mtcars, aes(cyl, mpg)) +
         axis.title.y = element_text(color="black", size=12, face="bold")) +
   xlab("Number of cylinders") +
   ylab("Miles per gallon") +
-  ggtitle("Association of number of cylinders and miles per gallon") +
-  ggsave()
+  ggtitle("Association of number of cylinders and miles per gallon")
   
 
